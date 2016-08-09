@@ -8,7 +8,7 @@
 #
 
 library(shiny)
-source("/Users/riram/Desktop/hidden-power-calc/calc.R")
+source("hidden-power-calc/calc.R")
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
    
