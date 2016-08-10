@@ -17,9 +17,9 @@ shinyServer(function(input, output) {
                 input$spa, input$spd)
   })
   
-  output$dmg <- renderText({
-    get_hp_damage(input$hp, input$atk, input$def, input$sp,
-                  input$spa, input$spd)
-  })
+  # output$dmg <- renderText({
+  #   get_hp_damage(input$hp, input$atk, input$def, input$sp,
+  #                 input$spa, input$spd)
+  # })
   
 })

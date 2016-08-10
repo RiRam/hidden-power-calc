@@ -53,8 +53,8 @@ shinyUI(fluidPage(
     mainPanel(
        h3("Type:"),
        textOutput("type"),
-       h3("Damage:"),
-       textOutput("dmg")
+       # h3("Damage:"),
+       # textOutput("dmg")
     )
   )
 ))
